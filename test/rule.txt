@@ -1,0 +1,9 @@
+
+rule "demo1" "test"
+begin
+  log(uInfo)
+  log("=============")
+  log(uInfo.GetNickname())
+  log(uInfo.GetRole())
+  return uInfo.GetRole()
+end
